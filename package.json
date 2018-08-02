@@ -1,0 +1,23 @@
+{
+  "name": "actions-on-google-nodejs-testbench",
+  "version": "0.1.0",
+  "description": "A tool for integration tests of Actions on Google Client Library",
+  "license": "MIT",
+  "author": "Julien Duval <fmeuman@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FmeuMan/actions-on-google-nodejs-testbench.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FmeuMan/actions-on-google-nodejs-testbench/issues"
+  },
+  "homepage": "https://github.com/FmeuMan/actions-on-google-nodejs-testbench#readme",
+  "scripts": {
+  },
+  "keywords": [
+    "dialogflow",
+    "google actions",
+    "google assistant",
+    "testing"
+  ]
+}
