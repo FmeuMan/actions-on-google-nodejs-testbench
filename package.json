@@ -1,5 +1,5 @@
 {
-  "name": "actions-on-google-nodejs-testbench",
+  "name": "@fmeuman/actions-on-google-nodejs-testbench",
   "version": "0.1.0-alpha",
   "description": "A tool for integration tests of Actions on Google Client Library",
   "license": "MIT",
@@ -13,6 +13,7 @@
   },
   "homepage": "https://github.com/FmeuMan/actions-on-google-nodejs-testbench#readme",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "lint": "tslint -p .",
     "clean": "rm -rf dist",

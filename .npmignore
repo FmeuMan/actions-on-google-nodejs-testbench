@@ -1,0 +1,12 @@
+*.DS_Store
+.nyc_output
+*.log
+src/
+.editorconfig
+tsconfig.json
+tslint.json
+
+# IDE specific
+.idea/
+.settings/
+.workspace/
