@@ -1,6 +1,6 @@
 {
   "name": "actions-on-google-nodejs-testbench",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha",
   "description": "A tool for integration tests of Actions on Google Client Library",
   "license": "MIT",
   "author": "Julien Duval <fmeuman@gmail.com>",
@@ -12,12 +12,34 @@
     "url": "https://github.com/FmeuMan/actions-on-google-nodejs-testbench/issues"
   },
   "homepage": "https://github.com/FmeuMan/actions-on-google-nodejs-testbench#readme",
+  "main": "dist/index.js",
   "scripts": {
+    "lint": "tslint -p .",
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "build:watch": "tsc -w"
   },
   "keywords": [
     "dialogflow",
     "google actions",
     "google assistant",
     "testing"
-  ]
+  ],
+  "peerDependencies": {
+    "actions-on-google": "2.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "supertest": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.5.5",
+    "@types/supertest": "^2.0.5",
+    "actions-on-google": "^2.3.0",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "typescript": "^2.9.2"
+  }
 }
